@@ -1,7 +1,8 @@
 data:extend({
   {
     type = "recipe",
-    name = "grenade-from-explosive",
+    name = "grenade-from-explosives",
+    icon = "__GrenadeFromExplosives__/graphics/icons/grenade_from_explosives.png",
     category = "crafting",
     enabled = false,
     energy_required = 1,
@@ -21,10 +22,10 @@ data:extend({
   {
     type = "technology",
     name = "grenade-from-explosives",
-    icon = "__GrenadeFromExploisves__/graphics/icons/grenade_from_explosives.png",
+    icon = "__GrenadeFromExplosives__/graphics/icons/grenade_from_explosives.png",
     icon_size = 64,
     icon_mipmaps = 1,
-    prerequisites = { "explosives" },
+    prerequisites = { "explosives", "military-2" },
     unit = {
       count = 50,
       ingredients = {
@@ -36,7 +37,7 @@ data:extend({
     effects = {
       {
         type = "unlock-recipe",
-        recipe = "grenade-from-explosive"
+        recipe = "grenade-from-explosives"
       }
     },
     order = "e-a-bb"
