@@ -1,0 +1,11 @@
+{
+  "name": "GrenadeFromExplosives",
+  "version": "1.0.0",
+  "factorio_version": "2.0",
+  "title": "Grenade From Explosives",
+  "author": "StormTAG",
+  "description": "Adds an altnernative recipe for grenades that uses explosives and steel. Crafts faster to supply other things that need grenades, like cluster grenades.",
+  "dependencies": [
+  "base >= 2.0.0"
+  ]
+}
